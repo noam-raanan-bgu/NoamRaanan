@@ -5,6 +5,8 @@ body {
     padding:0;
     line-height: 1.5em;
     height: auto;
+    background-image: url("../static/pattern3.jpg");
+    
 }
 
 #header {
@@ -14,11 +16,11 @@ body {
 }
 
 .innertext {
-    margin: 20px;
-    font-family: Arial; 
-    background-image: url("../static/background2.jpg");
-    background-repeat: repeat;
-    color: #5E5E5E;
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial;
+    color: #053ba0;
+    background-color: rgb(136, 136, 244);
 }
 
 #footer {
@@ -78,7 +80,7 @@ input[type=text], select, textarea {
   
 }
 input[type=submit] {
-    background-color: #35d5dbdb;
+    background-color: #35d6dbfd;
     color: white;
     padding: 12px 20px;
     border: 2 px black;
